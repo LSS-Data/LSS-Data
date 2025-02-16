@@ -2516,5 +2516,174 @@
                 }
             }
         }
-    }
+    },
+    "104": {
+        "caption": "Berger-K",
+        "credits": 25000,
+        "coins": 8,
+        "staff": {
+            "min": 1,
+            "max": 2,
+            "training": {
+                "Brandweer": {
+                    "tow_trucks":{
+                        "all": true
+                    }
+                }
+            }
+        },
+        "possibleBuildings": [
+            24
+        ],
+            "minPersonnel": 1,
+            "maxPersonnel": 2,
+            "schooling": {
+                "Brandweer": {
+                    "Berger Training": {
+                        "all": true
+                    }
+                }
+            }
+        },
+    "105": {
+        "caption": "Berger-G",
+        "credits": 50000,
+        "coins": 13,
+        "staff": {
+            "min": 1,
+            "max": 2,
+            "training": {
+                "Brandweer": {
+                    "tow_trucks":{
+                        "all": true
+                    }
+                }
+            }
+        },
+        "possibleBuildings": [
+            24
+        ],
+            "minPersonnel": 1,
+            "maxPersonnel": 2,
+            "schooling": {
+                "Brandweer": {
+                    "Berger Training": {
+                        "all": true
+                    }
+                }
+            }
+        },
+    "106": {
+        "caption": "Berger-K (RWS)",
+        "credits": 25000,
+        "coins": 8,
+        "staff": {
+            "min": 1,
+            "max": 2,
+            "training": {
+                "Brandweer": {
+                    "tow_trucks":{
+                        "all": true
+                    }
+                }
+            }
+        },
+        "possibleBuildings": [
+            22
+        ],
+            "minPersonnel": 1,
+            "maxPersonnel": 2,
+            "schooling": {
+                "Brandweer": {
+                    "Berger Training": {
+                        "all": true
+                    }
+                }
+            }
+        },
+    "107": {
+        "caption": "Berger-G (RWS)",
+        "credits": 50000,
+        "coins": 13,
+        "staff": {
+            "min": 1,
+            "max": 2,
+            "training": {
+                "Brandweer": {
+                    "tow_trucks":{
+                        "all": true
+                    }
+                }
+            }
+        },
+        "possibleBuildings": [
+            22
+        ],
+            "minPersonnel": 1,
+            "maxPersonnel": 2,
+            "schooling": {
+                "Brandweer": {
+                    "Berger Training": {
+                        "all": true
+                    }
+                }
+            }
+    },
+    "108": {
+        "caption": "Berger-K (Politie)",
+        "credits": 25000,
+        "coins": 8,
+        "staff": {
+            "min": 1,
+            "max": 2,
+            "training": {
+                "Politie": {
+                    "tow_trucks":{
+                        "all": true
+                    }
+                }
+            }
+        },
+        "possibleBuildings": [
+            5,
+            18
+        ],
+            "minPersonnel": 1,
+            "maxPersonnel": 2,
+            "schooling": {
+                "Politie": {
+                    "Berger Training": {
+                        "all": true
+                    }
+                }
+            }
+    },
+    "109": {
+        "caption": "Berger-G (Politie)",
+        "credits": 50000,
+        "coins": 13,
+        "staff": {
+            "min": 1,
+            "max": 2,
+            "training": {
+                "Politie": {
+                    "tow_trucks":{
+                        "all": true
+                    }
+                }
+            }
+        },
+        "possibleBuildings": [
+            5
+        ],
+            "minPersonnel": 1,
+            "maxPersonnel": 2,
+            "schooling": {
+                "Politie": {
+                    "Berger Training": {
+                        "all": true
+                    }
+                }
+            }
+    },
 }

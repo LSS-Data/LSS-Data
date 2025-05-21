@@ -2685,5 +2685,89 @@
                     }
                 }
             }
+    },
+  "110": {
+    "caption": "DAT_KMAR",
+    "credits": 10000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 2,
+      "training": {
+        "Politie": {
+          "military_police": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      26
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Politie": {
+        "Marechaussee": {
+          "all": true
+        }
+      }
     }
+  },
+  "111": {
+    "caption": "DB-KMAR",
+    "credits": 10000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 2,
+      "training": {
+        "Politie": {
+          "military_police": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      26
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Politie": {
+        "Marechaussee": {
+          "all": true
+        }
+      }
+    }
+  },
+  "112": {
+    "caption": "DM-KAMR",
+    "credits": 10000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 1,
+      "training": {
+        "Politie": {
+          "military_police": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      26
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 1,
+    "schooling": {
+      "Politie": {
+        "Marechaussee": {
+          "all": true
+        }
+      }
+    }
+  }
 }

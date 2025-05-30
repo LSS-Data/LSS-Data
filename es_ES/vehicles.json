@@ -519,7 +519,7 @@
     "maxPersonnel": 0,
     "schooling": null
   },
-  "25" {
+  "25": {
    "caption": "Unidad Celular",
    "credits": 25000,
    "coins": 15,
@@ -532,7 +532,7 @@
    "maxPersonnel": 3,
    "schooling": null
   },
-  "26" {
+  "26": {
    "caption": "UIP",
    "credits": 10000,
    "coins": 15,
@@ -558,7 +558,7 @@
       }
     }
   },
- "27" {
+ "27": {
    "caption": "GOIT",
    "credits": 25000,
    "coins": 10,
@@ -584,7 +584,7 @@
      }
    }
  },
- "28" {
+ "28": {
    "caption": "UEC",
    "credits": 35000,
    "coins": 15,
@@ -636,7 +636,7 @@
      }
    }
  },
- "30" {
+ "30": {
    "caption": "JUIP",
    "credits": 25000,
    "coins": 25,
@@ -694,9 +694,21 @@
      }
    }
  },
- "32": {
-   "caption": 
- },
+  "32": {
+    "caption": "UTV",
+    "credits": 20000,
+    "coins": 15,
+    "staff": {
+      "min": 1,
+      "max": 5
+    },
+    "possibleBuildings": [
+      29
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 5,
+    "schooling": null
+  },
   "33": {
     "caption": "Unidad de rescate en lodos",
     "credits": 20000,
@@ -742,7 +754,6 @@
       }
     }
   },
-  
   "35": {
     "caption": "Furgón GEAS",
     "credits": 40000,
@@ -806,6 +817,90 @@
     "maxPersonnel": 0,
     "schooling": null
   },
+  "38": {
+    "caption": "Unidad Subacuática de Salvamento Marítimo",
+    "credits": 40000,
+    "coins": 15,
+    "staff": {
+      "min": 2,
+      "max": 4,
+      "training": {
+        "Rescate acuático": {
+          "coastal_support": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      23
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de buzos de salvamento": {
+          "all": true
+        }
+      }
+    }
+  },
+  "39": {
+    "caption": "Helicoptero de Rescate",
+    "credits": 300000,
+    "coins": 30,
+    "staff": {
+      "min": 2,
+      "max": 4,
+      "training": {
+        "Rescate acuático": {
+          "coastal_rescue_pilot": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación en operaciones de rescate aéreo": {
+          "all": true
+        }
+      }
+    }
+  },
+  "40": {
+    "caption": "Avión de Salvamento Maritimo",
+    "credits": 500000,
+    "coins": 35,
+    "staff": {
+      "min": 1,
+      "max": 1,
+      "training": {
+        "Rescate acuático": {
+          "coastal_rescue_pilot": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 1,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación en operaciones de rescate aéreo": {
+          "all": true
+        }
+      }
+    }
+  },
   "41": {
     "caption": "Todoterreno GEAS",
     "credits": 10000,
@@ -820,6 +915,162 @@
     ],
     "minPersonnel": 2,
     "maxPersonnel": 4,
+    "schooling": null
+  },
+  "42": {
+    "caption": "Salvamar",
+    "credits": 35000,
+    "coins": 15,
+    "staff": {
+      "min": 2,
+      "max": 4,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      23
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "43": {
+    "caption": "Guardamar",
+    "credits": 75000,
+    "coins": 25,
+    "staff": {
+      "min": 5,
+      "max": 12,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      23
+    ],
+    "minPersonnel": 5,
+    "maxPersonnel": 12,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "44": {
+    "caption": "Remolcador de Salvamento",
+    "credits": 75000,
+    "coins": 25,
+    "staff": {
+      "min": 5,
+      "max": 12,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      23
+    ],
+    "minPersonnel": 5,
+    "maxPersonnel": 12,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "45": {
+    "caption": "Buque Polivalente",
+    "credits": 400000,
+    "coins": 30,
+    "staff": {
+      "min": 12,
+      "max": 15,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      23
+    ],
+    "minPersonnel": 12,
+    "maxPersonnel": 15,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "46": {
+    "caption": "Remolque de moto acuática",
+    "credits": 10000,
+    "coins": 10,
+    "staff": {
+      "min": 0,
+      "max": 0,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      29
+    ],
+    "minPersonnel": 0,
+    "maxPersonnel": 0,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "47": {
+    "caption": "Remolque de descontaminación de aguas sucias",
+    "credits": 35000,
+    "coins": 20,
+    "staff": {
+      "min": 0,
+      "max": 0
+    },
+    "possibleBuildings": [
+      23
+    ],
+    "special": "Se necesita un vehículo de remolque (Unidad Subacuática de Salvamento Marítimo)",
+    "minPersonnel": 0,
+    "maxPersonnel": 0,
     "schooling": null
   },
   "48": {
@@ -859,11 +1110,179 @@
       "min": 0,
       "max": 0
     },
-    "possibleBuildings": [6, 19],
+    "possibleBuildings": [6, 19, 29],
     "special": "Se necesita un vehículo de remolque (Todoterreno GEAS, Buceador de rescate, Furgón GEAS, UTV, Vehículo UMC, FUV)",
     "minPersonnel": 0,
     "maxPersonnel": 0,
     "schooling": null
+  },
+  "50": {
+    "caption": "Avión de Policía",
+    "credits": 300000,
+    "coins": 30,
+    "staff": {
+      "min": 1,
+      "max": 1,
+      "training": {
+        "Policía": {
+          "polizei_hubschrauber": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      13
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 1,
+    "schooling": {
+      "Policía": {
+        "Piloto de Helicóptero": {
+          "all": true
+        }
+      }
+    }
+  },
+  "51": {
+    "caption": "Patrullera de Aduanas",
+    "credits": 60000,
+    "coins": 15,
+    "staff": {
+      "min": 4,
+      "max": 6,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      26
+    ],
+    "minPersonnel": 4,
+    "maxPersonnel": 6,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "52": {
+    "caption": "Patrullera rápida de Aduanas",
+    "credits": 40000,
+    "coins": 15,
+    "staff": {
+      "min": 1,
+      "max": 2,
+      "training": {
+        "Rescate acuático": {
+          "ocean_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      26
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "53": {
+    "caption": "Helicoptero de Aduanas",
+    "credits": 300000,
+    "coins": 30,
+    "staff": {
+      "min": 1,
+      "max": 1,
+      "training": {
+        "Rescate acuático": {
+          "coastal_rescue_pilot": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      28
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 1,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación en operaciones de rescate aéreo": {
+          "all": true
+        }
+      }
+    }
+  },
+  "54": {
+    "caption": "Patrullera de Policía",
+    "credits": 45000,
+    "coins": 15,
+    "staff": {
+      "min": 3,
+      "max": 5,
+      "training": {
+        "Rescate acuático": {
+          "coastal_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      27
+    ],
+    "minPersonnel": 3,
+    "maxPersonnel": 5,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
+  },
+  "55": {
+    "caption": "Buque de Policía",
+    "credits": 60000,
+    "coins": 15,
+    "staff": {
+      "min": 4,
+      "max": 6,
+      "training": {
+        "Rescate acuático": {
+          "coastal_navigation": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      27
+    ],
+    "minPersonnel": 4,
+    "maxPersonnel": 6,
+    "schooling": {
+      "Rescate acuático": {
+        "Formación de Navegación en Oceáno": {
+          "all": true
+        }
+      }
+    }
   },
   "56": {
     "caption": "Camión ARFF 4x4",
@@ -1152,6 +1571,64 @@
     "maxPersonnel": 2,
     "schooling": null
   },
+  "67": {
+    "caption": "Camión remolcador",
+    "credits": 15000,
+    "coins": 15,
+    "staff": {
+      "min": 1,
+      "max": 2
+    },
+    "possibleBuildings": [
+      30
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "68": {
+    "caption": "Transportista de plataforma",
+    "credits": 30000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 2
+    },
+    "possibleBuildings": [
+      30
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "69": {
+    "caption": "Camión rotatorio",
+    "credits": 28000,
+    "coins": 20,
+    "staff": {
+      "min": 1,
+      "max": 2,
+      "training": {
+        "Bomberos": {
+          "tow_trucks": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      30
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Bomberos": {
+        "Vehículo pesado": {
+          "all": true
+        }
+      }
+    }
+  },
   "71": {
     "caption": "Camión remolcador (Policía)",
     "credits": 15000,
@@ -1168,4 +1645,4 @@
     "maxPersonnel": 2,
     "schooling": null
   }
-  }
+ }

@@ -600,7 +600,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 2,
         "unlocksVehicleTypes": [109]
-      },
+      }
     ],
     "levelcost": [
       "1. 10.000",
@@ -1532,8 +1532,8 @@
         "isVehicleExtension": true,
         "givesParkingLots": 2,
         "unlocksVehicleTypes": [107]
-      },
-      ],
+      }
+    ],
     "levelcost": [
       "1. 25.000"
     ],

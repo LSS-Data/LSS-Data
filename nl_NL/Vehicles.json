@@ -1485,7 +1485,7 @@
         "maxPersonnel": 4,
         "schooling": {
             "Waterredding": {
-                "Waterredding": {
+                "Waterredder": {
                     "all": true
                 }
             }
@@ -1513,7 +1513,7 @@
         "maxPersonnel": 6,
         "schooling": {
             "Waterredding": {
-                "Waterredding": {
+                "Waterredder": {
                     "all": true
                 }
             }

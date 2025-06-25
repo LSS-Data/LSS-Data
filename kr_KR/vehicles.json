@@ -1,1 +1,258 @@
 
+{
+  "0": {
+    "caption": "구조사다리",
+    "credits": 5000,
+    "coins": 25,
+    "staff": {
+      "min": 4,
+      "max": 6
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 4,
+    "maxPersonnel": 6,
+    "schooling": null,
+    "waterTank": 3000,
+    "wtank": 3000,
+    "foamTank": 500,
+    "ftank": 500
+  },
+  "1": {
+    "caption": "전술 대응 차량(TRV)",
+    "credits": 5000,
+    "coins": 25,
+    "staff": {
+      "min": 4,
+      "max": 6
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 4,
+    "maxPersonnel": 6,
+    "schooling": null,
+    "waterTank": 1500,
+    "wtank": 1500,
+    "foamTank": 250,
+    "ftank": 250
+  },
+  "2": {
+    "caption": "고가 사다리(TL)",
+    "credits": 10000,
+    "coins": 30,
+    "staff": {
+      "min": 1,
+      "max": 2
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "3": {
+    "caption": "지휘차",
+    "credits": 10000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 2
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "4": {
+    "caption": "구조공작차(MRU)",
+    "credits": 12180,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 3
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 3,
+    "schooling": null
+  },
+  "5": {
+    "caption": "구급차",
+    "credits": 5000,
+    "coins": 25,
+    "staff": {
+      "min": 3,
+      "max": 3
+    },
+    "possibleBuildings": [
+      0,
+      2,
+      18,
+      20
+    ],
+    "minPersonnel": 3,
+    "maxPersonnel": 3,
+    "schooling": null
+  },
+  "6": {
+    "caption": "물탱크차",
+    "credits": 17300,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 2
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": null,
+    "waterTank": 6000,
+    "wtank": 6000
+  },
+  "7": {
+    "caption": "생화학 인명구조차",
+    "credits": 19200,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 4,
+      "training": {
+        "소방서": {
+          "gw_gefahrgut": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 4,
+    "schooling": {
+      "소방서": {
+        "유해물질": {
+          "all": true
+        }
+      }
+    }
+  },
+  "11": {
+    "caption": "구조 공작차",
+    "credits": 19000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 9
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 9,
+    "schooling": null,
+    "waterTank": 3000,
+    "wtank": 3000,
+    "foamTank": 500,
+    "ftank": 500
+  },
+  "12": {
+    "caption": "사다리차",
+    "credits": 19000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 2
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "13": {
+    "caption": "긴급 이송차",
+    "credits": 4000,
+    "coins": 20,
+    "staff": {
+      "min": 2,
+      "max": 2
+    },
+    "possibleBuildings": [
+      0,
+      2,
+      18,
+      20
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "17": {
+    "caption": "기본 인명 지원(BLS) 구급차",
+    "credits": 5000,
+    "coins": 12,
+    "staff": {
+      "min": 2,
+      "max": 2
+    },
+    "possibleBuildings": [
+      0,
+      2,
+      18,
+      20
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": null
+  },
+  "36": {
+    "caption": "항공기 구조용고성능 소방차",
+    "credits": 30000,
+    "coins": 20,
+    "staff": {
+      "min": 2,
+      "max": 4,
+      "training": {
+        "소방서": {
+          "공항 소방 훈련": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": {
+      "소방서": {
+        "공항 소방 훈련": {
+          "all": true
+        }
+      }
+    }
+  },
+  
+}

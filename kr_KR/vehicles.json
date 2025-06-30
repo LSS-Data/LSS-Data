@@ -1,4 +1,3 @@
-
 {
   "0": {
     "caption": "구조사다리",
@@ -225,6 +224,24 @@
     "maxPersonnel": 2,
     "schooling": null
   },
+  "19": {
+    "caption": "포장치 운반차",
+    "credits": 35000,
+    "coins": 35,
+    "staff": {
+      "min": 2,
+      "max": 3
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 3,
+    "schooling": null,
+    "foamTank": 3000,
+    "ftank": 3000
+  },
   "36": {
     "caption": "항공기 구조용고성능 소방차",
     "credits": 30000,
@@ -253,5 +270,6 @@
         }
       }
     }
-  }
+  },
+  
 }

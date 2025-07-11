@@ -216,7 +216,7 @@
     "maxPersonnel": 6,
     "schooling": {
       "Parque de bomberos": {
-        "Mando móvil": {
+        "Vehículo de mando móvil": {
           "all": true
         }
       }

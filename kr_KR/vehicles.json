@@ -224,6 +224,35 @@
     "maxPersonnel": 2,
     "schooling": null
   },
+  "18": {
+    "caption": "기동형 지휘차량",
+    "credits": 25000,
+    "coins": 10,
+    "staff": {
+      "min": 1,
+      "max": 2,
+      "training": {
+        "소방서": {
+          "elw2": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      0,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 2,
+    "schooling": {
+      "소방서": {
+        "기동형 지휘자": {
+          "all": true
+        }
+      }
+    }
+  },
   "19": {
     "caption": "포장치 운반차",
     "credits": 35000,

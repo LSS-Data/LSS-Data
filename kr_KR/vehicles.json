@@ -152,6 +152,22 @@
       }
     }
   },
+  "8": {
+    "caption": "사고 대응차량(IRV)",
+    "credits": 5000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 4
+    },
+    "possibleBuildings": [
+      6,
+      19
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": null
+  },
   "11": {
     "caption": "구조 공작차",
     "credits": 19000,

@@ -2936,7 +2936,7 @@
       "max": 1,
       "training": {
         "Politie": {
-          "Niet bekend": {
+          "Bomverkenner": {
             "all": true
           }
         }
@@ -2950,7 +2950,7 @@
     "maxPersonnel": 1,
     "schooling": {
       "Politie": {
-        "niet bekend": {
+        "bomb_disposal_patrol": {
           "all": true
         }
       }

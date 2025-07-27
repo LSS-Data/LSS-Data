@@ -2769,5 +2769,190 @@
         }
       }
     }
+  },
+      "113": {
+    "caption": "DAT-EOD",
+    "credits": 40000,
+    "coins": 20,
+    "staff": {
+      "min": 2,
+      "max": 2,
+      "training": {
+        "Militaire academie": {
+          "bomb_disposal": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Militaire academie": {
+        "Bomontmanteling": {
+          "all": true
+        }
+      }
+    }
+  },
+  "114": {
+    "caption": "DB-EOD",
+    "credits": 45000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 2,
+      "training": {
+        "Millitaire academie": {
+          "Bomverkenner": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Millitaire academie": {
+        "bomb_disposal": {
+          "all": true
+        }
+      }
+    }
+  },
+  "115": {
+    "caption": "VW-EOD",
+    "credits": 45000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 2,
+      "training": {
+        "Millitaire academie": {
+          "Bomverkenner": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Millitaire academie": {
+        "bomb_disposal": {
+          "all": true
+        }
+      }
+    }
+  },
+  "116": {
+    "caption": "DB-Explosievenhonden",
+    "credits": 40000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 2,
+      "training": {
+        "Millitaire academie": {
+          "Hondengeleider EOD": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Millitaire academie": {
+        "bomb_disposal_dogs": {
+          "all": true
+        }
+      }
+    }
+  },
+  "117": {
+    "caption": "DB-Explosieveduikers",
+    "credits": 30000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 2,
+      "training": {
+        "Millitaire academie": {
+          "Duiker Defensie": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 2,
+    "schooling": {
+      "Millitaire academie": {
+        "bomb_disposal_diver": {
+          "all": true
+        }
+      }
+    }
+  },
+  "118": {
+    "caption": "BA-DDG",
+    "credits": 15000,
+    "coins": 25,
+    "staff": {
+      "min": 0,
+      "max": 0
+    },
+    "possibleBuildings": [
+      25
+    ],
+    "special": "Het gaat hier om een aanhanger dat een trekkend voertuig nodig heeft. (DB-Explosieveduikers)"
+    "minPersonnel": 0,
+    "maxPersonnel": 0,
+    "schooling": null
+  },
+  "119": {
+    "caption": "DB-TEV",
+    "credits": 25000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 1,
+      "training": {
+        "Politie": {
+          "Bomverkenner": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      5,
+      18
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 1,
+    "schooling": {
+      "Politie": {
+        "bomb_disposal_patrol": {
+          "all": true
+        }
+      }
+    }
   }
 }

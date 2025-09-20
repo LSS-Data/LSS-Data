@@ -1,4 +1,269 @@
 {
+"0": {
+    "caption": "Brandweer kazerne",
+    "color": "#bb0000",
+    "coins": 30,
+    "credits": 100000,
+    "levelPrices": {
+      "credits": [10000, 50000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000],
+      "coins": [10, 15, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+    },
+    "extensions": [
+      {
+        "caption": "Ambulance standplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [16, 30, 52, 63]
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Waterongevallenbestrijding",
+        "credits": 400000,
+        "coins": 25,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [33, 36, 49, 50]
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Vliegtuigbrandbestrijding",
+        "credits": 400000,
+        "coins": 25,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [41, 42, 43, 44]
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Haakarmbak parkeerplaats",
+        "credits": 100000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [26, 27, 29, 32, 45, 51, 61],
+        "parkingLotReservations": [
+          [27, 29, 32, 45, 51, 61]
+        ],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Schuimblussing",
+        "credits": 150000,
+        "coins": 15,
+        "duration": "5 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [68, 69, 70]
+      },
+      {
+        "caption": "Signalisatie",
+        "credits": 150000,
+        "coins": 20,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [83],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Natuurbrandbestrijding",
+        "credits": 100000,
+        "coins": 15,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [86, 87, 88, 89],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Urban Search and Rescue",
+        "credits": 150000,
+        "coins": 15,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [92, 93, 94, 95, 96, 97]
+      },
+      {
+        "caption": "Specialisme Technische Hulpverlening",
+        "credits": 150000,
+        "coins": 15,
+        "duration": "7 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [90, 91],
+        "cannotDisable": true
+      },
+      {
+        "caption": "Grote brandweerkazerne",
+        "credits": 1000000,
+        "coins": 50,
+        "duration": "7 dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 10,
+        "cannotDisable": true
+      },
+      {
+        "caption": "Grootschalige Geneeskundige Bijstand",
+        "credits": 200000,
+        "coins": 25,
+        "duration": "5 Dagen",
+        "requiredExtensions": [0],
+        "isVehicleExtension": true,
+        "givesParkingLots": 2,
+        "unlocksVehicleTypes": [100, 101]
+      }
+    ],
+    "levelcost": [
+      "1. 10.000",
+      "2. 50.000",
+      "3.-24. 100.000"
+    ],
+    "maxBuildings": "Geen limiet",
+    "maxLevel": 24,
+    "special": "Vanaf de 25e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: \u003Ccode\u003E100.000+200.000*LOG\u003Csub\u003E2\u003C/sub\u003E(Aantal brandweerposten − 22)\u003C/code\u003E. De Coins prijs blijft gelijk!",
+    "startPersonnel": 10,
+    "startVehicles": [
+      "SI-2",
+      "TS 8/9",
+      "TST 8/9",
+      "TST 6/7",
+      "TST 4/5",
+      "TS 4/5",
+      "TST-NB 8/9",
+      "TST-NB 6/7",
+      "TST-NB 4/5",
+      "TS 6/7"
+    ],
+    "schoolingTypes": [
+      "Brandweer"
+    ],
+    "schools": [4],
+    "startParkingLots": 1,
+    "icon": "fire-flame-curved"
+  },
+    
+    
     "1": {
     "caption": "Brandweer academie",
     "color": "#992222",

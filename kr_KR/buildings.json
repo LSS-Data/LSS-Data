@@ -1,0 +1,43 @@
+"1": {
+    "caption": "Brandweer academie",
+    "color": "#992222",
+    "coins": 50,
+    "credits": 500000,
+    "levelPrices": {
+      "credits": [],
+      "coins": []
+    },
+    "extensions": [
+      {
+        "caption": "Extra klaslokaal",
+        "credits": 400000,
+        "coins": 40,
+        "duration": "7 Dagen",
+        "newClassrooms": 1,
+        "cannotDisable": true
+      },
+      {
+        "caption": "Extra klaslokaal",
+        "credits": 400000,
+        "coins": 40,
+        "duration": "7 Dagen",
+        "newClassrooms": 1,
+        "cannotDisable": true
+      },
+      {
+        "caption": "Extra klaslokaal",
+        "credits": 400000,
+        "coins": 40,
+        "duration": "7 Dagen",
+        "newClassrooms": 1,
+        "cannotDisable": true
+      }
+    ],
+    "levelcost": [],
+    "maxBuildings": "Geen limiet",
+    "maxLevel": 0,
+    "special": "Penningmeesters en Admins kunnen de Team Brandweeracademie met behulp van de credits van de Teamkas uitbreiden.",
+    "startClassrooms": 1,
+    "school": "Brandweer",
+    "icon": "graduation-cap"
+  },

@@ -1,4 +1,5 @@
-"1": {
+{
+    "1": {
     "caption": "Brandweer academie",
     "color": "#992222",
     "coins": 50,
@@ -40,4 +41,5 @@
     "startClassrooms": 1,
     "school": "Brandweer",
     "icon": "graduation-cap"
+    }
 }

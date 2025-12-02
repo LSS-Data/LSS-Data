@@ -2817,6 +2817,7 @@
     "possibleBuildings": [
       25
     ],
+    "equipmentCapacity": 20,
     "minPersonnel": 2,
     "maxPersonnel": 2,
     "schooling": {
@@ -2845,6 +2846,7 @@
     "possibleBuildings": [
       25
     ],
+    "equipmentCapacity": 40,
     "minPersonnel": 2,
     "maxPersonnel": 2,
     "schooling": {
@@ -2955,5 +2957,175 @@
         }
       }
     }
+  },
+  "120": {
+    "caption": "DB-VZ",
+    "credits": 12000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 4,
+      "training": {
+        "Brandweer": {
+          "care_service": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": {
+      "Brandweer": {
+        "Verzorger": {
+          "all": true
+        }
+      }
+    }
+  },
+  "121": {
+    "caption": "VZH",
+    "credits": 12000,
+    "coins": 6,
+    "staff": {
+      "min": 0,
+      "max": 0
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "minPersonnel": 0,
+    "maxPersonnel": 0,
+    "schooling": null
+  },
+  "122": {
+    "caption": "DB-AH",
+    "credits": 12000,
+    "coins": 25,
+    "staff": {
+      "min": 2,
+      "max": 4,
+      "training": {
+        "Brandweer": {
+          "clean_service": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "minPersonnel": 2,
+    "maxPersonnel": 4,
+    "schooling": {
+      "Brandweer": {
+        "Hygiënemedewerker": {
+          "all": true
+        }
+      }
+    }
+  },
+  "123": {
+    "caption": "VZH-AH",
+    "credits": 12000,
+    "coins": 6,
+    "staff": {
+      "min": 0,
+      "max": 0
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "minPersonnel": 0,
+    "maxPersonnel": 0,
+    "schooling": null
+  },
+  "124": {
+    "caption": "DB-PC-LOG",
+    "credits": 40000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 1,
+      "training": {
+        "Brandweer": {
+          "care_service_command": {
+            "all": true
+          }
+        }
+      }
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "minPersonnel": 1,
+    "maxPersonnel": 1,
+    "schooling": {
+      "Brandweer": {
+        "Pelotonscommandant Logistiek": {
+          "all": true
+        }
+      }
+    }
+  },
+  "125": {
+    "caption": "DB-LOG",
+    "credits": 10000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 3
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "equipmentCapacity": 20,
+    "minPersonnel": 1,
+    "maxPersonnel": 3,
+    "schooling": null
+  },
+  "126": {
+    "caption": "VW-LOG",
+    "credits": 15000,
+    "coins": 25,
+    "staff": {
+      "min": 1,
+      "max": 3
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "equipmentCapacity": 30,
+    "minPersonnel": 1,
+    "maxPersonnel": 3,
+    "schooling": null
+  },
+  "127": {
+    "caption": "BMH-LOG",
+    "credits": 6000,
+    "coins": 12,
+    "staff": {
+      "min": 0,
+      "max": 0
+    },
+    "possibleBuildings": [
+      0,
+      17
+    ],
+    "equipmentCapacity": 30,
+    "minPersonnel": 0,
+    "maxPersonnel": 0,
+    "schooling": null
   }
 }

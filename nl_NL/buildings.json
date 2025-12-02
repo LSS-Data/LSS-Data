@@ -234,6 +234,55 @@
         "unlocksVehicleTypes": [100, 101]
       }
     ],
+    "storageUpgrades": {
+      "initial_containers": {
+        "caption": "",
+        "additionalStorage": 40,
+        "credits": 25000,
+        "coins": 10,
+        "duration": "5 Dagen"
+      },
+      "additional_containers_1": {
+        "caption": "",
+        "additionalStorage": 30,
+        "credits": 25000,
+        "coins": 10,
+        "duration": "3 Dagen",
+        "requiredStorageUpgrades": [
+          "initial_containers"
+        ]
+      },
+      "additional_containers_2": {
+        "caption": "",
+        "additionalStorage": 30,
+        "credits": 25000,
+        "coins": 10,
+        "duration": "3 Dagen",
+         "requiredStorageUpgrades": [
+          "additional_containers_1"
+        ]
+      },
+      "additional_containers_3": {
+        "caption": "",
+        "additionalStorage": 30,
+        "credits": 25000,
+        "coins": 10,
+        "duration": "3 Dagen",
+         "requiredStorageUpgrades": [
+          "additional_containers_2"
+        ]
+      },
+      "additional_containers_4": {
+        "caption": "",
+        "additionalStorage": 30,
+        "credits": 25000,
+        "coins": 10,
+        "duration": "3 Dagen",
+         "requiredStorageUpgrades": [
+          "additional_containers_3"
+        ]
+      }
+    },
     "levelcost": [
       "1. 10.000",
       "2. 50.000",
@@ -1781,6 +1830,35 @@
         "cannotDisable": true
       }
     ],
+    "storageUpgrades": {
+    "initial_containers": {
+        "caption": "Militaire Opslagruimte",
+        "additionalStorage": 40,
+        "credits": 35000,
+        "coins": 25,
+        "duration": "5 Dagen"
+      },
+      "additional_containers_1": {
+        "caption": "Extra Militaire Opslagruimte",
+        "additionalStorage": 20,
+        "credits": 35000,
+        "coins": 25,
+        "duration": "5 Dagen",
+         "requiredStorageUpgrades": [
+          "initial_containers"
+        ]
+      },
+      "additional_containers_2": {
+        "caption": "Extra Militaire Opslagruimte",
+        "additionalStorage": 20,
+        "credits": 35000,
+        "coins": 25,
+        "duration": "5 Dagen",
+         "requiredStorageUpgrades": [
+          "additional_containers_1"
+        ]
+      }
+    },
     "levelcost": [],
     "maxBuildings": "Geen limiet",
     "maxLevel": 0,

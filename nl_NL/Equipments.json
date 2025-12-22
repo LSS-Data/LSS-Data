@@ -5,8 +5,7 @@
     "size": 15,
     "credits": 15000,
     "coins": 25,
-    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden.
-Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     },
     {
     "id": "fire_water_carrier",
@@ -16,8 +15,7 @@ Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     "coins": 25,
     "watert": 20,
     "pump": 1500,
-    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden.
-Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     },
     {
     "id": "fire_water_carrier_2",
@@ -27,8 +25,7 @@ Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     "coins": 25,
     "watert": 10,
     "pump": 800,
-    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden.
-Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     },
     {
     "id": "fire_pump_and_water_carrier",
@@ -38,8 +35,7 @@ Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     "coins": 25,
     "watert": 5,
     "pump": 1000,
-    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden.
-Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     },
     {
     "id": "care_service",
@@ -47,8 +43,7 @@ Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     "size": 15,
     "credits": 15000,
     "coins": 25,
-    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden.
-Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     },
     {
     "id": "clean_service",
@@ -56,7 +51,6 @@ Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     "size": 15, 
     "credits": 15000,
     "coins": 25,
-    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden.
-Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-LOG, VW-LOG, BMH-LOG"
     }
 }

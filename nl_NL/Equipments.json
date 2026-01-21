@@ -1,5 +1,13 @@
 {
     {
+    "id": "bomb_disposal_robot",
+    "name": "RC-Explosievenrobot",
+    "size": 20,
+    "credits": 70000,
+    "coins": 25,
+    "special": "Uitrusting vereist een voertuig met vrije capaciteit om gebruikt te worden. Mogelijke voertuigen: DB-EOD, VW-EOD"
+    },
+    {
     "id": "fire_breathing_protection",
     "name": "RC-Adembescherming",
     "size": 15,

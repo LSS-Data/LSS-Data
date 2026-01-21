@@ -255,7 +255,7 @@
     "maxPersonnel": 6,
     "schooling": {
       "Fire Station": {
-        "Mobile command": {
+        "Mobile Command": {
           "all": true
         }
       }

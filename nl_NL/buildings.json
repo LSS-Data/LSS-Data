@@ -236,14 +236,14 @@
     ],
     "storageUpgrades": {
       "initial_containers": {
-        "caption": "",
+        "caption": "Brandweeruitrusting Opslagruimte",
         "additionalStorage": 40,
         "credits": 25000,
         "coins": 10,
         "duration": "5 Dagen"
       },
       "additional_containers_1": {
-        "caption": "",
+        "caption": "Brandweeruitrusting Extra Opslagruimte",
         "additionalStorage": 30,
         "credits": 25000,
         "coins": 10,
@@ -253,7 +253,7 @@
         ]
       },
       "additional_containers_2": {
-        "caption": "",
+        "caption": "Brandweeruitrusting Extra Opslagruimte",
         "additionalStorage": 30,
         "credits": 25000,
         "coins": 10,
@@ -263,7 +263,7 @@
         ]
       },
       "additional_containers_3": {
-        "caption": "",
+        "caption": "Brandweeruitrusting Extra Opslagruimte",
         "additionalStorage": 30,
         "credits": 25000,
         "coins": 10,
@@ -273,7 +273,7 @@
         ]
       },
       "additional_containers_4": {
-        "caption": "",
+        "caption": "Brandweeruitrusting Extra Opslagruimte",
         "additionalStorage": 30,
         "credits": 25000,
         "coins": 10,

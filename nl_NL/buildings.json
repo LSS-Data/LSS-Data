@@ -232,6 +232,26 @@
         "isVehicleExtension": true,
         "givesParkingLots": 2,
         "unlocksVehicleTypes": [100, 101]
+      },
+      {
+        "caption": "Verzorgingseenheid",
+        "credits": 150000,
+        "coins": 25,
+        "duration": "5 Dagen",
+        "requiredExtensions": [0],
+        "isVehicleExtension": true,
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [120, 121]
+      },
+      {
+        "caption": "Arbeidshygiëne",
+        "credits": 150000,
+        "coins": 25,
+        "duration": "5 Dagen",
+        "requiredExtensions": [0],
+        "isVehicleExtension": true,
+        "givesParkingLots": 2,
+        "unlocksVehicleTypes": [122, 123]
       }
     ],
     "storageUpgrades": {

@@ -238,20 +238,24 @@
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
-        "requiredExtensions": [0],
         "isVehicleExtension": true,
         "givesParkingLots": 1,
-        "unlocksVehicleTypes": [120, 121]
+        "unlocksVehicleTypes": [120, 121],
+        "parkingLotReservations": [
+          [120]
+        ]
       },
       {
         "caption": "Arbeidshygiëne",
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
-        "requiredExtensions": [0],
         "isVehicleExtension": true,
-        "givesParkingLots": 2,
-        "unlocksVehicleTypes": [122, 123]
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [122, 123],
+        "parkingLotReservations": [
+          [122]
+        ]
       }
     ],
     "storageUpgrades": {
@@ -278,7 +282,7 @@
         "credits": 25000,
         "coins": 10,
         "duration": "3 Dagen",
-         "requiredStorageUpgrades": [
+        "requiredStorageUpgrades": [
           "additional_containers_1"
         ]
       },
@@ -288,7 +292,7 @@
         "credits": 25000,
         "coins": 10,
         "duration": "3 Dagen",
-         "requiredStorageUpgrades": [
+        "requiredStorageUpgrades": [
           "additional_containers_2"
         ]
       },
@@ -298,7 +302,7 @@
         "credits": 25000,
         "coins": 10,
         "duration": "3 Dagen",
-         "requiredStorageUpgrades": [
+        "requiredStorageUpgrades": [
           "additional_containers_3"
         ]
       }
@@ -649,7 +653,8 @@
         "credits": 100000,
         "coins": 15,
         "duration": "5 Dagen",
-        "cannotDisable": true
+        "isVehicleExtension": true,
+        "unlocksVehicleTypes": [98, 99]
       },
       {
         "caption": "Berger-K",
@@ -657,18 +662,34 @@
         "coins": 25,
         "duration": "5 Dagen",
         "isVehicleExtension": true,
-        "givesParkingLots": 0,
-        "unlocksVehicleTypes": [108]
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [108],
+        "parkingLotReservations": [
+          [108]
+        ]
       },
       {
         "caption": "Berger-G",
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
-        "requiredExtensions": [13],
         "isVehicleExtension": true,
-        "givesParkingLots": 2,
-        "unlocksVehicleTypes": [109]
+        "unlocksVehicleTypes": [109],
+        "requiredExtensions": [13],
+        "parkingLotReservations": [
+          [109]
+        ]
+      },
+      {
+        "caption": "Team Explosieven Veiligheid",
+        "credits": 150000,
+        "coins": 25,
+        "duration": "5 Dagen",
+        "isVehicleExtension": true,
+        "unlocksVehicleTypes": [119],
+        "parkingLotReservations": [
+          [119]
+        ]
       }
     ],
     "levelcost": [
@@ -1406,13 +1427,13 @@
         "duration": "5 Dagen",
         "cannotDisable": true
       },
-            {
+      {
         "caption": "Berger-K",
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
         "isVehicleExtension": true,
-        "givesParkingLots": 0,
+        "givesParkingLots": 1,
         "unlocksVehicleTypes": [108]
       }
     ],
@@ -1583,13 +1604,13 @@
       "coins": [10]
     },
     "extensions": [
-            {
+      {
         "caption": "Berger-K",
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
         "isVehicleExtension": true,
-        "givesParkingLots": 2,
+        "givesParkingLots": 1,
         "unlocksVehicleTypes": [106]
       },
       {
@@ -1597,10 +1618,10 @@
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
-        "requiredExtensions": [0],
         "isVehicleExtension": true,
-        "givesParkingLots": 2,
-        "unlocksVehicleTypes": [107]
+        "givesParkingLots": 1,
+        "unlocksVehicleTypes": [107],
+        "requiredExtensions": [0]
       }
     ],
     "levelcost": [
@@ -1645,103 +1666,84 @@
   },
   "24": {
     "caption": "Berger Standplaats",
-    "coins": 15,
+    "color": "#af1313",
+    "coins": 30,
     "credits": 200000,
     "levelPrices": {
       "credits": [10000, 25000, 50000, 75000, 100000],
-      "coins": [3, 5, 5, 7, 10]
+      "coins": [5, 10, 10, 15, 20]
     },
     "extensions": [
-            {
+      {
         "caption": "Berger-G",
         "credits": 150000,
         "coins": 25,
         "duration": "5 Dagen",
         "isVehicleExtension": true,
-        "givesParkingLots": 2,
-        "unlocksVehicleTypes": [105],
-        "parkingLotReservations": [
-          [105]
-        ]
+        "givesParkingLots": 0,
+        "unlocksVehicleTypes": [105]
       },
-                  {
+      {
         "caption": "Parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-              {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       },
-                    {
+      {
         "caption": "Extra parkeerplaats voor voertuigen",
         "credits": 25000,
         "coins": 5,
         "duration": "3 Dagen",
-        "newParkingSpot": 1,
-        "cannotDisable": true
-      },
-                    {
-        "caption": "Extra parkeerplaats voor voertuigen",
-        "credits": 25000,
-        "coins": 5,
-        "duration": "3 Dagen",
-        "newParkingSpot": 1,
         "cannotDisable": true
       }
     ],
@@ -1751,26 +1753,27 @@
       "3. 50.000",
       "4. 75.000",
       "5. 100.000"
-      ],
+    ],
     "maxBuildings": "Geen limiet",
     "maxLevel": 5,
-       "special": "",
+    "special": "",
     "startPersonnel": 2,
     "startVehicles": [],
     "schoolingTypes": [
       "Brandweer"
     ],
-        "schools": [4],
+    "schools": [4],
     "startParkingLots": 1,
-    "icon": "building-tow-trucks"
+    "icon": "fire-flame-curved"
   },
   "25": {
     "caption": "Kazerne defensie",
+    "color": "#af1313",
     "coins": 50,
-    "credits": 5000000,
+    "credits": 500000,
     "levelPrices": {
       "credits": [10000, 25000, 50000, 75000, 100000, 100000, 100000, 100000, 100000, 150000, 150000, 150000, 150000, 150000],
-      "coins": [5, 10, 10, 15, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+      "coins": [10, 10, 15, 15, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
     },
     "extensions": [
       {
@@ -1787,37 +1790,82 @@
           [40],
           [40]
         ]
+      },
+      {
+        "caption": "Explosieven Opruimingsdienst Defensie",
+        "credits": 100000,
+        "coins": 15,
+        "duration": "5 Dagen",
+        "isVehicleExtension": true,
+        "unlocksVehicleTypes": [110, 111, 112]
+      },
+      {
+        "caption": "Defensie Duikgroep",
+        "credits": 200000,
+        "coins": 25,
+        "duration": "5 Dagen",
+        "isVehicleExtension": true,
+        "givesParkingLots": 3,
+        "unlocksVehicleTypes": [117, 118],
+        "parkingLotReservations": [
+          [117],
+          [117],
+          [118]
+        ]
       }
     ],
+    "storageUpgrades": {
+      "initial_containers": {
+        "caption": "Militaire Opslagruimte",
+        "additionalStorage": 40,
+        "credits": 25000,
+        "coins": 10,
+        "duration": "5 Dagen"
+      },
+      "additional_containers_1": {
+        "caption": "Extra Militaire Opslagruimte",
+        "additionalStorage": 20,
+        "credits": 50000,
+        "coins": 12,
+        "duration": "3 Dagen",
+        "requiredStorageUpgrades": [
+          "initial_containers"
+        ]
+      },
+      "additional_containers_2": {
+        "caption": "Extra Militaire Opslagruimte",
+        "additionalStorage": 20,
+        "credits": 50000,
+        "coins": 12,
+        "duration": "3 Dagen",
+        "requiredStorageUpgrades": [
+          "additional_containers_1"
+        ]
+      }
+    },
     "levelcost": [
       "1. 10.000",
-      "2. 25000",
+      "2. 25.000",
       "3. 50.000",
       "4. 75.000",
-      "5. 100.000",
-      "6. 100.000",
-      "7. 100.000",
-      "8. 100.000",
-      "9. 100.000",
-      "10. 150.000",
-      "11. 150.000",
-      "12. 150.000",
-      "13. 150.000"
-      ],
+      "5-9. 100.000",
+      "10-14. 150.000"
+    ],
     "maxBuildings": "Geen limiet",
     "maxLevel": 14,
-    "special": "", 
-    "startPersonnel": 2, 
+    "special": "",
+    "startPersonnel": 2,
     "startVehicles": [],
     "schoolingTypes": [
-      "Militaire academie"
-      ],
+      "Militair"
+    ],
     "schools": [26],
-    "startParkingLots": 1, 
-    "icon": "building-miltary-police"
+    "startParkingLots": 1,
+    "icon": "fire-flame-curved"
   },
   "26": {
     "caption": "Militaire academie",
+    "color": "#992222",
     "coins": 50,
     "credits": 500000,
     "levelPrices": {
@@ -1850,41 +1898,12 @@
         "cannotDisable": true
       }
     ],
-    "storageUpgrades": {
-    "initial_containers": {
-        "caption": "Militaire Opslagruimte",
-        "additionalStorage": 40,
-        "credits": 35000,
-        "coins": 25,
-        "duration": "5 Dagen"
-      },
-      "additional_containers_1": {
-        "caption": "Extra Militaire Opslagruimte",
-        "additionalStorage": 20,
-        "credits": 35000,
-        "coins": 25,
-        "duration": "5 Dagen",
-         "requiredStorageUpgrades": [
-          "initial_containers"
-        ]
-      },
-      "additional_containers_2": {
-        "caption": "Extra Militaire Opslagruimte",
-        "additionalStorage": 20,
-        "credits": 35000,
-        "coins": 25,
-        "duration": "5 Dagen",
-         "requiredStorageUpgrades": [
-          "additional_containers_1"
-        ]
-      }
-    },
     "levelcost": [],
     "maxBuildings": "Geen limiet",
     "maxLevel": 0,
     "special": "Penningmeesters en Admins kunnen de Team Brandweeracademie met behulp van de credits van de Teamkas uitbreiden.",
     "startClassrooms": 1,
-    "school": "Militaire academie",
-    "icon": "building_military_police_school"
+    "school": "Militair",
+    "icon": "graduation-cap"
   }
 }

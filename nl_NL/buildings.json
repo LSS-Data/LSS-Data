@@ -909,10 +909,8 @@
         "duration": "3 Dagen",
         "isVehicleExtension": true,
         "givesParkingLots": 1,
-        "unlocksVehicleTypes": [],
-        "parkingLotReservations": [
-          [35]
-        ]
+        "unlocksVehicleTypes": [35],
+        "parkingLotReservations": [35],
       },
       {
         "caption": "Drone Team Politie",
@@ -921,7 +919,7 @@
         "duration": "5 Dagen",
         "isVehicleExtension": true,
         "givesParkingLots": 1,
-        "unlocksVehicleTypes": [],
+        "unlocksVehicleTypes": [128],
         "parkingLotReservations": [128],
       },
       {
@@ -932,12 +930,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 4,
         "unlocksVehicleTypes": [39, 40],
-        "parkingLotReservations": [
-          [39],
-          [40],
-          [40],
-          [40]
-        ]
+        "parkingLotReservations": [39, 40, 40, 40],
       },
       {
         "caption": "Hondenbrigade",
@@ -947,12 +940,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 4,
         "unlocksVehicleTypes": [47, 48],
-        "parkingLotReservations": [
-          [47],
-          [47],
-          [48],
-          [48]
-        ]
+        "parkingLotReservations": [47, 47, 48, 48],
       },
       {
         "caption": "Arrestatieteam",
@@ -962,14 +950,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 6,
         "unlocksVehicleTypes": [53, 54, 55],
-        "parkingLotReservations": [
-          [53],
-          [54],
-          [54],
-          [54],
-          [54],
-          [55]
-        ]
+        "parkingLotReservations": [53, 54, 54, 54, 54, 55],
       },
       {
         "caption": "Arrestantenvervoer",
@@ -979,10 +960,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 2,
         "unlocksVehicleTypes": [58],
-        "parkingLotReservations": [
-          [58],
-          [58]
-        ]
+        "parkingLotReservations": [58, 58],
       },
       {
         "caption": "Mobiele Eenheid, Aanhoudingseenheid",
@@ -992,9 +970,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 1,
         "unlocksVehicleTypes": [64],
-        "parkingLotReservations": [
-          [64]
-        ]
+        "parkingLotReservations": [64],
       },
       {
         "caption": "Mobiele Eenheid, 2e Sectie",
@@ -1005,11 +981,7 @@
         "givesParkingLots": 3,
         "requiredExtensions": [2],
         "unlocksVehicleTypes": [40],
-        "parkingLotReservations": [
-          [40],
-          [40],
-          [40]
-        ]
+        "parkingLotReservations": [40, 40, 40]
       },
       {
         "caption": "Bereden Brigade",
@@ -1019,14 +991,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 6,
         "unlocksVehicleTypes": [73, 74, 75],
-        "parkingLotReservations": [
-          [75],
-          [75],
-          [75],
-          [73, 74],
-          [73, 74],
-          [73, 74]
-        ]
+        "parkingLotReservations": [73, 73, 73, 74, 74, 74, 75, 75, 75],
       },
       {
         "caption": "Waterwerper Uitbreiding",
@@ -1036,9 +1001,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 1,
         "unlocksVehicleTypes": [84],
-        "parkingLotReservations": [
-          [84]
-        ]
+        "parkingLotReservations": [84],
       }
     ],
     "levelcost": [],

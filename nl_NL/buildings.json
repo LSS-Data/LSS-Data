@@ -914,7 +914,7 @@
           [35]
         ]
       },
-            {
+      {
         "caption": "Drone Team Politie",
         "credits": 100000,
         "coins": 10,
@@ -922,9 +922,7 @@
         "isVehicleExtension": true,
         "givesParkingLots": 1,
         "unlocksVehicleTypes": [],
-        "parkingLotReservations": [
-          [128]
-        ]
+        "parkingLotReservations": [128],
       },
       {
         "caption": "Mobiele Eenheid, Sectie",

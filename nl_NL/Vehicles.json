@@ -218,6 +218,7 @@
     },
     "icon": "shuttle-van",
     "possibleBuildings": [0, 17],
+    "equipmentCapacity": 10,
     "special": "Benodigd vanaf 10 brandweerposten.",
     "minPersonnel": 1,
     "maxPersonnel": 4,
